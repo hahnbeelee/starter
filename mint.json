@@ -15,6 +15,7 @@
       "to": "#07C983"
     }
   },
+  "openapi": "https://petstore3.swagger.io/api/v3/openapi.json",
   "topbarLinks": [
     {
       "name": "Support",
@@ -69,81 +70,37 @@
       "pages": ["api-reference/introduction"]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "pet",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "api-reference/endpoint/pet/update-an-existing-pet",
+        "api-reference/endpoint/pet/add-a-new-pet-to-the-store",
+        "api-reference/endpoint/pet/finds-pets-by-status",
+        "api-reference/endpoint/pet/finds-pets-by-tags",
+        "api-reference/endpoint/pet/find-pet-by-id",
+        "api-reference/endpoint/pet/updates-a-pet-in-the-store-with-form-data",
+        "api-reference/endpoint/pet/deletes-a-pet",
+        "api-reference/endpoint/pet/uploads-an-image"
       ]
     },
     {
-      "group": "Health",
-      "pages": ["api-reference/endpoint/health/health"]
-    },
-    {
-      "group": "Auth",
+      "group": "store",
       "pages": [
-        "api-reference/endpoint/auth/get-access-token",
-        "api-reference/endpoint/auth/get-white-labeling"
+        "api-reference/endpoint/store/returns-pet-inventories-by-status",
+        "api-reference/endpoint/store/place-an-order-for-a-pet",
+        "api-reference/endpoint/store/find-purchase-order-by-id",
+        "api-reference/endpoint/store/delete-purchase-order-by-id"
       ]
     },
     {
-      "group": "Files",
+      "group": "user",
       "pages": [
-        "api-reference/endpoint/files/create-upload-file",
-        "api-reference/endpoint/files/create-raw-text",
-        "api-reference/endpoint/files/create-upload-file-from-url",
-        "api-reference/endpoint/files/user-files-v2",
-        "api-reference/endpoint/files/delete-files-endpoint",
-        "api-reference/endpoint/files/resync-file"
-      ]
-    },
-    {
-      "group": "User",
-      "pages": ["api-reference/endpoint/user/user-endpoint"]
-    },
-    {
-      "group": "Web Scrape",
-      "pages": [
-        "api-reference/endpoint/utilities/web-scrape",
-        "api-reference/endpoint/utilities/scrape-sitemap",
-        "api-reference/endpoint/utilities/fetch-urls",
-        "api-reference/endpoint/utilities/sitemap",
-        "api-reference/endpoint/utilities/fetch-youtube-transcripts",
-        "api-reference/endpoint/utilities/search-urls"
-      ]
-    },
-    {
-      "group": "Data Source",
-      "pages": [
-        "api-reference/endpoint/data-sources/revoke-access-token",
-        "api-reference/endpoint/data-sources/user-data-sources",
-        "api-reference/endpoint/data-sources/list",
-        "api-reference/endpoint/data-sources/sync"
-      ]
-    },
-    {
-      "group": "Tags",
-      "pages": [
-        "api-reference/endpoint/files/create-file-tags",
-        "api-reference/endpoint/files/delete-file-tags"
-      ]
-    },
-    {
-      "group": "Retrieval",
-      "pages": [
-        "api-reference/endpoint/embeddings/embeddings",
-        "api-reference/endpoint/embeddings/retrieve-embeddings-and-content",
-        "api-reference/endpoint/files/parsed-file",
-        "api-reference/endpoint/files/raw-file"
-      ]
-    },
-    {
-      "group": "Webhooks",
-      "pages": [
-        "api-reference/endpoint/webhooks/add-webhook-url",
-        "api-reference/endpoint/webhooks/webhook-urls",
-        "api-reference/endpoint/webhooks/delete-webhook-url"
+        "api-reference/endpoint/user/create-user",
+        "api-reference/endpoint/user/creates-list-of-users-with-given-input-array",
+        "api-reference/endpoint/user/logs-user-into-the-system",
+        "api-reference/endpoint/user/logs-out-current-logged-in-user-session",
+        "api-reference/endpoint/user/get-user-by-user-name",
+        "api-reference/endpoint/user/update-user",
+        "api-reference/endpoint/user/delete-user"
       ]
     }
   ],
