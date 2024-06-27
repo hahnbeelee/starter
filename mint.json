@@ -75,6 +75,76 @@
         "api-reference/endpoint/create",
         "api-reference/endpoint/delete"
       ]
+    },
+    {
+      "group": "Health",
+      "pages": ["api-reference/endpoint/health/health"]
+    },
+    {
+      "group": "Auth",
+      "pages": [
+        "api-reference/endpoint/auth/get-access-token",
+        "api-reference/endpoint/auth/get-white-labeling"
+      ]
+    },
+    {
+      "group": "Files",
+      "pages": [
+        "api-reference/endpoint/files/create-upload-file",
+        "api-reference/endpoint/files/create-raw-text",
+        "api-reference/endpoint/files/create-upload-file-from-url",
+        "api-reference/endpoint/files/user-files-v2",
+        "api-reference/endpoint/files/delete-files-endpoint",
+        "api-reference/endpoint/files/resync-file"
+      ]
+    },
+    {
+      "group": "User",
+      "pages": ["api-reference/endpoint/user/user-endpoint"]
+    },
+    {
+      "group": "Web Scrape",
+      "pages": [
+        "api-reference/endpoint/utilities/web-scrape",
+        "api-reference/endpoint/utilities/scrape-sitemap",
+        "api-reference/endpoint/utilities/fetch-urls",
+        "api-reference/endpoint/utilities/sitemap",
+        "api-reference/endpoint/utilities/fetch-youtube-transcripts",
+        "api-reference/endpoint/utilities/search-urls"
+      ]
+    },
+    {
+      "group": "Data Source",
+      "pages": [
+        "api-reference/endpoint/data-sources/revoke-access-token",
+        "api-reference/endpoint/data-sources/user-data-sources",
+        "api-reference/endpoint/data-sources/list",
+        "api-reference/endpoint/data-sources/sync"
+      ]
+    },
+    {
+      "group": "Tags",
+      "pages": [
+        "api-reference/endpoint/files/create-file-tags",
+        "api-reference/endpoint/files/delete-file-tags"
+      ]
+    },
+    {
+      "group": "Retrieval",
+      "pages": [
+        "api-reference/endpoint/embeddings/embeddings",
+        "api-reference/endpoint/embeddings/retrieve-embeddings-and-content",
+        "api-reference/endpoint/files/parsed-file",
+        "api-reference/endpoint/files/raw-file"
+      ]
+    },
+    {
+      "group": "Webhooks",
+      "pages": [
+        "api-reference/endpoint/webhooks/add-webhook-url",
+        "api-reference/endpoint/webhooks/webhook-urls",
+        "api-reference/endpoint/webhooks/delete-webhook-url"
+      ]
     }
   ],
   "footerSocials": {
