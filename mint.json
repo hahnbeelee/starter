@@ -28,8 +28,8 @@
   "tabs": [
     {
       "name": "API Reference",
-      "openapi": "https://petstore3.swagger.io/api/v3/openapi.json",
-      "url": "api-reference"
+      "url": "api-reference",
+      "openapi": "/openapi.json"
     }
   ],
   "anchors": [
