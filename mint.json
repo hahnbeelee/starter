@@ -15,7 +15,6 @@
       "to": "#07C983"
     }
   },
-  "openapi": "https://petstore3.swagger.io/api/v3/openapi.json",
   "topbarLinks": [
     {
       "name": "Support",
@@ -29,6 +28,7 @@
   "tabs": [
     {
       "name": "API Reference",
+      "openapi": "https://petstore3.swagger.io/api/v3/openapi.json",
       "url": "api-reference"
     }
   ],
@@ -68,40 +68,6 @@
     {
       "group": "API Documentation",
       "pages": ["api-reference/introduction"]
-    },
-    {
-      "group": "pet",
-      "pages": [
-        "api-reference/endpoint/pet/update-an-existing-pet",
-        "api-reference/endpoint/pet/add-a-new-pet-to-the-store",
-        "api-reference/endpoint/pet/finds-pets-by-status",
-        "api-reference/endpoint/pet/finds-pets-by-tags",
-        "api-reference/endpoint/pet/find-pet-by-id",
-        "api-reference/endpoint/pet/updates-a-pet-in-the-store-with-form-data",
-        "api-reference/endpoint/pet/deletes-a-pet",
-        "api-reference/endpoint/pet/uploads-an-image"
-      ]
-    },
-    {
-      "group": "store",
-      "pages": [
-        "api-reference/endpoint/store/returns-pet-inventories-by-status",
-        "api-reference/endpoint/store/place-an-order-for-a-pet",
-        "api-reference/endpoint/store/find-purchase-order-by-id",
-        "api-reference/endpoint/store/delete-purchase-order-by-id"
-      ]
-    },
-    {
-      "group": "user",
-      "pages": [
-        "api-reference/endpoint/user/create-user",
-        "api-reference/endpoint/user/creates-list-of-users-with-given-input-array",
-        "api-reference/endpoint/user/logs-user-into-the-system",
-        "api-reference/endpoint/user/logs-out-current-logged-in-user-session",
-        "api-reference/endpoint/user/get-user-by-user-name",
-        "api-reference/endpoint/user/update-user",
-        "api-reference/endpoint/user/delete-user"
-      ]
     }
   ],
   "footerSocials": {
