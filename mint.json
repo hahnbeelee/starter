@@ -27,9 +27,13 @@
   },
   "tabs": [
     {
+      "name": "Google",
+      "url": "https://google.com"
+    },
+    {
       "name": "API Reference",
       "url": "api-reference",
-      "openapi": "/openapi.json"
+      "openapi": "https://petstore3.swagger.io/api/v3/openapi.json"
     }
   ],
   "anchors": [
